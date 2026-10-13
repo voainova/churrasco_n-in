@@ -1,1 +1,122 @@
 @import "tailwindcss";
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gradient-hero {
+  background: linear-gradient(135deg, #1a0f0a 0%, #2d1810 40%, #4a1f0f 100%);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, #d4a574 0%, #f4c984 50%, #d4a574 100%);
+}
+
+.gradient-dark {
+  background: linear-gradient(180deg, #0f0805 0%, #1a0f0a 100%);
+}
+
+.text-gold {
+  background: linear-gradient(135deg, #d4a574 0%, #f4c984 50%, #d4a574 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-master {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2418 50%, #1a1a1a 100%);
+  border: 2px solid #d4a574;
+  box-shadow: 0 0 40px rgba(212, 165, 116, 0.3);
+}
+
+.card-prata {
+  background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
+  border: 2px solid #b8b8b8;
+  box-shadow: 0 0 30px rgba(184, 184, 184, 0.2);
+}
+
+.card-bronze {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a1f15 100%);
+  border: 2px solid #b87333;
+  box-shadow: 0 0 30px rgba(184, 115, 51, 0.2);
+}
+
+.card-apoio {
+  background: linear-gradient(135deg, #1a1a1a 0%, #1a2520 100%);
+  border: 2px solid #4a7c59;
+  box-shadow: 0 0 30px rgba(74, 124, 89, 0.2);
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #d4a574, #f4c984);
+  box-shadow: 0 0 20px rgba(212, 165, 116, 0.6);
+  flex-shrink: 0;
+}
+
+.timeline-line {
+  width: 2px;
+  background: linear-gradient(180deg, #d4a574, transparent);
+  flex: 1;
+  margin-top: 0.5rem;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.badge-exclusive {
+  background: linear-gradient(135deg, #d4a574 0%, #f4c984 100%);
+  color: #1a0f0a;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 165, 116, 0.2);
+}
+
+.immersion-card {
+  background: linear-gradient(135deg, #1a0f0a 0%, #2d1810 100%);
+  border: 1px solid rgba(212, 165, 116, 0.3);
+}
+
+.cta-button {
+  background: linear-gradient(135deg, #d4a574 0%, #f4c984 100%);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(212, 165, 116, 0.4);
+}
+
+.divider-gold {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #d4a574, transparent);
+}
+
+.gallery-item {
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
