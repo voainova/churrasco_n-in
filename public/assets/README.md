@@ -1,9 +1,9 @@
 # Assets do Projeto
 
-Coloque aqui os seguintes arquivos para o deploy no Cloudflare Pages:
+Coloque aqui os seguintes arquivos:
 
-- `Arte_feed.jpeg` - Imagem principal do hero
-- `video_churras.MOV` - Vídeo da edição 2025
+- `Arte_feed.jpeg` - Arte do feed para o Hero
+- `video_churras.MOV` - Vídeo do churrasco (Edição 2025)
 - `foto1.jpg` - Foto da palestra
 - `foto2.jpg` - Foto do networking
-- `foto3.jpg` - Foto do grupo do Núcleo de Inovação
+- `foto3.jpg` - Foto do grupo/núcleo
