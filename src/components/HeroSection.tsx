@@ -56,7 +56,7 @@ export default function HeroSection() {
           </div>
           <div className="fade-in relative">
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-yellow-900/50 shadow-2xl">
-              <img src="assets/Arte_feed.jpeg" className="w-full h-full object-cover" alt="Churrasco da Inovação e Negócios" />
+              <img src="/assets/Arte_feed.jpeg" className="w-full h-full object-cover" alt="Churrasco da Inovação e Negócios" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-black/80 backdrop-blur border border-yellow-900/50 rounded-xl p-4 shadow-2xl">
               <div className="text-gold text-3xl font-black font-display">80</div>

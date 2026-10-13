@@ -61,7 +61,7 @@ export default function SobreEventoSection() {
             </div>
           </div>
           <div className="rounded-2xl overflow-hidden border border-yellow-900/30 shadow-2xl">
-            <img src="assets/foto3.jpg" className="w-full h-96 object-cover" alt="Grupo Núcleo de Inovação e Negócios" />
+            <img src="/assets/foto3.jpg" className="w-full h-96 object-cover" alt="Grupo Núcleo de Inovação e Negócios" />
           </div>
         </div>
       </div>

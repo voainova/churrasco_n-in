@@ -24,7 +24,7 @@ export default function Edicao2025Section() {
                 playsInline
                 className="absolute top-0 left-0 w-full h-full object-cover"
               >
-                <source src="assets/video_churras.MOV" type="video/mp4" />
+                <source src="/assets/video_churras.MOV" type="video/mp4" />
                 Seu navegador não suporta vídeos.
               </video>
             </div>
@@ -33,10 +33,10 @@ export default function Edicao2025Section() {
           {/* Galeria de Fotos */}
           <div className="grid grid-cols-2 gap-4">
             <div className="gallery-item rounded-2xl overflow-hidden border border-yellow-900/30 shadow-2xl">
-              <img src="assets/foto2.jpg" className="w-full h-full object-cover aspect-square" alt="Networking 2025" />
+              <img src="/assets/foto2.jpg" className="w-full h-full object-cover aspect-square" alt="Networking 2025" />
             </div>
             <div className="gallery-item rounded-2xl overflow-hidden border border-yellow-900/30 shadow-2xl">
-              <img src="assets/foto1.jpg" className="w-full h-full object-cover aspect-square" alt="Palestra 2025" />
+              <img src="/assets/foto1.jpg" className="w-full h-full object-cover aspect-square" alt="Palestra 2025" />
             </div>
           </div>
         </div>
