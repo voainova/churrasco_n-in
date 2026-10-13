@@ -29,6 +29,9 @@ export default function ImersaoSection() {
                 <br />
                 <span className="text-white">Inovação e Negócios</span>
               </h3>
+              <p className="text-gold font-semibold text-lg mb-2">
+                Treinamento completo para sua equipe — incluso no patrocínio
+              </p>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Um evento completo com <strong className="text-white">profissionais renomados</strong> em cinco pilares
                 fundamentais para o crescimento do seu negócio. Uma experiência transformadora para você e sua equipe.

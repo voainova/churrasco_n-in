@@ -14,33 +14,29 @@ export default function Edicao2025Section() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          {/* Vídeo placeholder */}
+          {/* Vídeo */}
           <div className="rounded-2xl overflow-hidden border border-yellow-900/30 shadow-2xl">
-            <div className="relative aspect-video bg-gradient-to-br from-amber-900/30 to-orange-900/20 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">▶️</div>
-                <div className="text-gray-400 text-sm">Vídeo da Edição 2025</div>
-              </div>
+            <div className="relative aspect-video bg-black">
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="absolute top-0 left-0 w-full h-full object-cover"
+              >
+                <source src="assets/video_churras.MOV" type="video/mp4" />
+                Seu navegador não suporta vídeos.
+              </video>
             </div>
           </div>
 
           {/* Galeria de Fotos */}
           <div className="grid grid-cols-2 gap-4">
             <div className="gallery-item rounded-2xl overflow-hidden border border-yellow-900/30 shadow-2xl">
-              <div className="aspect-square bg-gradient-to-br from-amber-900/40 to-orange-900/30 flex items-center justify-center">
-                <div className="text-center p-4">
-                  <div className="text-4xl mb-2">🤝</div>
-                  <div className="text-gray-400 text-xs">Networking</div>
-                </div>
-              </div>
+              <img src="assets/foto2.jpg" className="w-full h-full object-cover aspect-square" alt="Networking 2025" />
             </div>
             <div className="gallery-item rounded-2xl overflow-hidden border border-yellow-900/30 shadow-2xl">
-              <div className="aspect-square bg-gradient-to-br from-orange-900/40 to-amber-900/30 flex items-center justify-center">
-                <div className="text-center p-4">
-                  <div className="text-4xl mb-2">🎤</div>
-                  <div className="text-gray-400 text-xs">Palestra</div>
-                </div>
-              </div>
+              <img src="assets/foto1.jpg" className="w-full h-full object-cover aspect-square" alt="Palestra 2025" />
             </div>
           </div>
         </div>

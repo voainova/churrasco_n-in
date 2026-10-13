@@ -55,12 +55,8 @@ export default function HeroSection() {
             </div>
           </div>
           <div className="fade-in relative">
-            <div className="aspect-square rounded-2xl overflow-hidden border-2 border-yellow-900/50 shadow-2xl bg-gradient-to-br from-amber-900/50 to-orange-900/30 flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="text-8xl mb-4">🔥</div>
-                <div className="text-2xl font-display font-bold text-gold">Churrasco da Inovação</div>
-                <div className="text-gray-400 mt-2">&amp; Negócios 2026</div>
-              </div>
+            <div className="aspect-square rounded-2xl overflow-hidden border-2 border-yellow-900/50 shadow-2xl">
+              <img src="assets/Arte_feed.jpeg" className="w-full h-full object-cover" alt="Churrasco da Inovação e Negócios" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-black/80 backdrop-blur border border-yellow-900/50 rounded-xl p-4 shadow-2xl">
               <div className="text-gold text-3xl font-black font-display">80</div>

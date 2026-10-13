@@ -61,12 +61,7 @@ export default function SobreEventoSection() {
             </div>
           </div>
           <div className="rounded-2xl overflow-hidden border border-yellow-900/30 shadow-2xl">
-            <div className="h-96 bg-gradient-to-br from-amber-900/40 to-orange-900/30 flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="text-6xl mb-4">👥</div>
-                <div className="text-gray-400">Grupo Núcleo de Inovação</div>
-              </div>
-            </div>
+            <img src="assets/foto3.jpg" className="w-full h-96 object-cover" alt="Grupo Núcleo de Inovação e Negócios" />
           </div>
         </div>
       </div>
