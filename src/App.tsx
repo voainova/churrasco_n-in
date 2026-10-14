@@ -15,9 +15,9 @@ export default function App() {
       <Edicao2025Section />
       <SobreEventoSection />
       <ProgramacaoSection />
-      <CotasSection />
       <ImersaoSection />
       <PorQuePatrocinarSection />
+      <CotasSection />
       <CtaSection />
       <Footer />
     </div>
