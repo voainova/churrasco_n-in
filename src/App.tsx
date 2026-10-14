@@ -1,3 +1,4 @@
+import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Edicao2025Section from './components/Edicao2025Section';
 import SobreEventoSection from './components/SobreEventoSection';
@@ -11,6 +12,7 @@ import Footer from './components/Footer';
 export default function App() {
   return (
     <div className="bg-black text-white min-h-screen">
+      <Header />
       <HeroSection />
       <Edicao2025Section />
       <SobreEventoSection />
