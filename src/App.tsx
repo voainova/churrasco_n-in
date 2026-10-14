@@ -1,26 +1,30 @@
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import Edicao2025Section from './components/Edicao2025Section';
-import SobreEventoSection from './components/SobreEventoSection';
-import ProgramacaoSection from './components/ProgramacaoSection';
-import CotasSection from './components/CotasSection';
-import ImersaoSection from './components/ImersaoSection';
-import PorQuePatrocinarSection from './components/PorQuePatrocinarSection';
-import CtaSection from './components/CtaSection';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import SocialProofSection from "./components/SocialProofSection";
+import BenefitsSection from "./components/BenefitsSection";
+import SpeakersSection from "./components/SpeakersSection";
+import ScheduleSection from "./components/ScheduleSection";
+import TargetAudienceSection from "./components/TargetAudienceSection";
+import OfferSection from "./components/OfferSection";
+import FAQSection from "./components/FAQSection";
+import FinalCTA from "./components/FinalCTA";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="bg-black text-white min-h-screen">
+    <div className="bg-[#0f0805] text-white min-h-screen overflow-x-hidden">
       <Header />
-      <HeroSection />
-      <Edicao2025Section />
-      <SobreEventoSection />
-      <ProgramacaoSection />
-      <ImersaoSection />
-      <PorQuePatrocinarSection />
-      <CotasSection />
-      <CtaSection />
+      <main>
+        <HeroSection />
+        <SocialProofSection />
+        <BenefitsSection />
+        <SpeakersSection />
+        <ScheduleSection />
+        <TargetAudienceSection />
+        <OfferSection />
+        <FAQSection />
+        <FinalCTA />
+      </main>
       <Footer />
     </div>
   );
