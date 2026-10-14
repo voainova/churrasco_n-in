@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-black py-10 border-t border-yellow-900/20">
+    <footer className="bg-white py-10 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <div className="flex justify-center items-center gap-8 mb-6 flex-wrap">
           <img
@@ -14,9 +14,9 @@ export default function Footer() {
             className="h-20 w-auto object-contain"
           />
         </div>
-        <div className="text-gold font-display font-bold text-lg mb-2">Núcleo de Inovação e Negócios</div>
-        <div className="text-gray-500 text-sm">AEMFLO / CDL São José-SC</div>
-        <div className="text-gray-600 text-xs mt-4">Proposta de Patrocínio • Churrasco da Inovação e Negócios 2026</div>
+        <div className="font-display font-bold text-lg mb-2 text-gray-900">Núcleo de Inovação e Negócios</div>
+        <div className="text-gray-700 text-sm">AEMFLO / CDL São José-SC</div>
+        <div className="text-gray-500 text-xs mt-4">Proposta de Patrocínio • Churrasco da Inovação e Negócios 2026</div>
       </div>
     </footer>
   );

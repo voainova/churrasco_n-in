@@ -5,20 +5,6 @@ export default function HeroSection() {
         <div className="w-full h-full bg-gradient-to-br from-amber-900/40 via-orange-900/30 to-transparent" />
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 w-full">
-        {/* Logos no topo da Hero */}
-        <div className="flex justify-center items-center gap-8 mb-12 flex-wrap">
-          <img
-            src="/assets/Logo Núcleo Inovação 2025 melhorada.png"
-            alt="AEMFLO / CDL São José"
-            className="h-16 md:h-20 w-auto object-contain"
-          />
-          <img
-            src="/assets/logo completa colorida Inovação e Negócios.jpeg"
-            alt="Núcleo de Inovação e Negócios"
-            className="h-16 md:h-20 w-auto object-contain"
-          />
-        </div>
-
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in">
             <div className="inline-block mb-6">
