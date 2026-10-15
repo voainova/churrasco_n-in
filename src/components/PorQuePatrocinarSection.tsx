@@ -8,7 +8,7 @@ export default function PorQuePatrocinarSection() {
     {
       icon: '🎤',
       title: 'Palco com Credibilidade',
-      description: 'Formato de entrevista conduzida por MC profissional — sua marca é apresentada com conteúdo e credibilidade, não como comercial de TV.',
+      description: 'Formato de Painel/Talk Show conduzido por MC profissional — sua marca e seus cases são apresentados com conteúdo e credibilidade, sendo você a estrela da noite.',
     },
     {
       icon: '🤝',

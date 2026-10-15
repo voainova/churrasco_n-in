@@ -24,8 +24,8 @@ export default function ProgramacaoSection() {
     },
     {
       time: '19h45 – 20h35',
-      title: 'Palestra Principal',
-      description: 'Palestra de alto impacto com Fernando Atalaia — Estrategista de Ecossistema Empresarial, tema: Vendas, Ecossistema e Aumento de Faturamento.',
+      title: '🎤 Painel com Empresários de Sucesso',
+      description: 'Talk show dinâmico e interativo com os patrocinadores e convidados de destaque da Grande Florianópolis. O palco é seu!',
       tags: [],
     },
     {
