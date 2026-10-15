@@ -7,31 +7,31 @@ export default function ProgramacaoSection() {
       tags: [],
     },
     {
-      time: '19h15 – 19h25',
+      time: '19h15 – 19h45',
       title: 'Abertura & Aniversário do Núcleo',
       description: 'Apresentação institucional "Núcleo em Números" com resultados, cases e visão de futuro.',
       tags: [],
     },
     {
-      time: '19h25 – 19h45',
+      time: '19h45 – 20h30',
       title: '🎤 Painel Dinâmico dos Patrocinadores',
       description: 'Entrevistas conduzidas pelo MC no palco — formato dinâmico que valoriza sua marca com credibilidade e conteúdo.',
+      tags: [],
+    },
+    {
+      time: '20h30 – 20h45',
+      title: 'Apresentação das Empresas Patrocinadoras',
+      description: 'Momento dedicado às empresas no palco:',
       tags: [
-        { label: 'Master: 7 min', color: 'bg-yellow-900/30' },
+        { label: 'Master: 6 min', color: 'bg-yellow-900/30' },
         { label: 'Prata: 4 min', color: 'bg-gray-700/30' },
         { label: 'Bronze: Painel Relâmpago', color: 'bg-orange-900/30' },
       ],
     },
     {
-      time: '19h45 – 20h35',
-      title: '🎤 Painel com Empresários de Sucesso',
-      description: 'Talk show dinâmico e interativo com os patrocinadores e convidados de destaque da Grande Florianópolis. O palco é seu!',
-      tags: [],
-    },
-    {
       time: '20h45 – 22h30',
       title: '🥩 Churrasco Gourmet pelo Chef Rodrigo',
-      description: 'Jantar premium com cortes selecionados, estações de circulação e networking livre. Reabertura dos estandes dos patrocinadores.',
+      description: 'Jantar premium, networking livre e circulação pelos estandes.',
       tags: [],
     },
   ];
