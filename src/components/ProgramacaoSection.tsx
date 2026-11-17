@@ -78,6 +78,35 @@ export default function ProgramacaoSection() {
               </div>
             ))}
           </div>
+
+          <div className="mt-12 overflow-hidden rounded-2xl border border-yellow-900/50 bg-black/40">
+            <img
+              src="/assets/Arte_feed_palestrantes.jpeg"
+              className="w-full object-cover"
+              alt="Palestrantes do Talk Show 2027: O Ano da Inovação na Grande Florianópolis"
+            />
+            <div className="p-6 md:p-8">
+              <span className="text-gold text-sm font-bold tracking-widest uppercase">Talk Show exclusivo</span>
+              <h3 className="font-display text-2xl md:text-3xl font-bold mt-2">
+                2027: O Ano da Inovação na Grande Florianópolis
+              </h3>
+              <p className="text-gray-300 mt-4">Uma conversa rara e sem filtros com:</p>
+              <ul className="text-gray-400 mt-2 space-y-1">
+                <li>🎙️ Luan Tavares (Vice-Presidente AEMFLO)</li>
+                <li>🎙️ Marcio Cavalcanti (Diretor de Inovação)</li>
+                <li>🎙️ Macson Vieira (Coordenador do Núcleo de Inovação e Negócios)</li>
+              </ul>
+              <p className="text-gray-300 font-bold mt-6">O que você vai descobrir:</p>
+              <ul className="text-gray-400 mt-2 space-y-2">
+                <li>✅ As tendências de mercado que vão definir os próximos anos.</li>
+                <li>✅ Como o associativismo está criando estratégias para aumentar sua produtividade e vendas.</li>
+                <li>
+                  ✅ Ações práticas para você conquistar mais resultados e, consequentemente, mais tempo de qualidade
+                  para sua família.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
