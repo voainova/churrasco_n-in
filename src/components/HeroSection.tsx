@@ -31,7 +31,7 @@ export default function HeroSection() {
                 </div>
                 <div>
                   <div className="text-xs text-gray-400 uppercase tracking-wider">Data</div>
-                  <div className="font-bold">05 de Novembro, 2026</div>
+                  <div className="font-bold">03 de Dezembro, 2026</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -56,7 +56,11 @@ export default function HeroSection() {
           </div>
           <div className="fade-in relative">
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-yellow-900/50 shadow-2xl">
-              <img src="/assets/Arte_feed.jpeg" className="w-full h-full object-cover" alt="Churrasco da Inovação e Negócios" />
+              <img
+                src="/assets/Arte_feed_palestrantes.jpeg"
+                className="w-full h-full object-cover"
+                alt="Palestrantes do Talk Show 2027: O Ano da Inovação na Grande Florianópolis"
+              />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-black/80 backdrop-blur border border-yellow-900/50 rounded-xl p-4 shadow-2xl">
               <div className="text-gold text-3xl font-black font-display">80</div>
