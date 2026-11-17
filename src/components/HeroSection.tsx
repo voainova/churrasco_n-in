@@ -58,7 +58,7 @@ export default function HeroSection() {
           <div className="fade-in relative">
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-yellow-900/50 shadow-2xl">
               <img
-                src="/assets/Arte_feed_palestrantes.jpeg"
+                src="/assets/Arte_feed.jpeg"
                 className="w-full h-full object-cover"
                 alt="Palestrantes do Talk Show 2027: O Ano da Inovação na Grande Florianópolis"
               />
