@@ -24,8 +24,16 @@ export default function ProgramacaoSection() {
     },
     {
       time: '19h45 – 20h35',
-      title: 'Palestra Principal',
-      description: 'Palestra de alto impacto com Fernando Atalaia — Estrategista de Ecossistema Empresarial, tema: Vendas, Ecossistema e Aumento de Faturamento.',
+      title: 'Talk Show exclusivo: "2027: O Ano da Inovação na Grande Florianópolis"',
+      description: `Uma conversa rara e sem filtros com:
+🎙️ Luan Tavares (Vice-Presidente AEMFLO)
+🎙️ Marcio Cavalcanti (Diretor de Inovação)
+🎙️ Macson Vieira (Coordenador do Núcleo de Inovação e Negócios)
+
+O que você vai descobrir:
+✅ As tendências de mercado que vão definir os próximos anos.
+✅ Como o associativismo está criando estratégias para aumentar sua produtividade e vendas.
+✅ Ações práticas para você conquistar mais resultados e, consequentemente, mais tempo de qualidade para sua família.`,
       tags: [],
     },
     {
@@ -58,7 +66,7 @@ export default function ProgramacaoSection() {
                 <div className="flex-1 pb-8">
                   <div className="text-gold font-bold text-sm tracking-widest uppercase">{item.time}</div>
                   <h3 className="font-display text-2xl font-bold mt-2 mb-2">{item.title}</h3>
-                  <p className="text-gray-400">{item.description}</p>
+                  <p className="text-gray-400 whitespace-pre-line">{item.description}</p>
                   {item.tags.length > 0 && (
                     <div className="mt-3 flex flex-wrap gap-2">
                       {item.tags.map((tag, tagIndex) => (
