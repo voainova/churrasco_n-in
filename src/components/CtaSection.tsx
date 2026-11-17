@@ -24,7 +24,7 @@ export default function CtaSection() {
           </div>
           <div className="stat-card rounded-2xl p-6 text-left">
             <div className="text-xs text-gray-400 uppercase tracking-wider mb-1">Evento</div>
-            <div className="font-bold text-lg">05 de Novembro, 2026</div>
+            <div className="font-bold text-lg">03 de Dezembro, 2026</div>
             <div className="text-gray-400 text-sm">19h00 | AEMFLO / CDL-SJ</div>
             <div className="text-gold text-sm mt-2">Previsão de 80 empresários qualificados</div>
           </div>
