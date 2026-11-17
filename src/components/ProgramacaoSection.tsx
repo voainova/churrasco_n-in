@@ -7,39 +7,37 @@ export default function ProgramacaoSection() {
       tags: [],
     },
     {
-      time: '19h15 – 19h25',
+      time: '19h15 – 19h45',
       title: 'Abertura & Aniversário do Núcleo',
       description: 'Apresentação institucional "Núcleo em Números" com resultados, cases e visão de futuro.',
       tags: [],
     },
     {
-      time: '19h25 – 19h45',
+      time: '19h45 – 20h30',
       title: '🎤 Painel Dinâmico dos Patrocinadores',
       description: 'Entrevistas conduzidas pelo MC no palco — formato dinâmico que valoriza sua marca com credibilidade e conteúdo.',
+      tags: [],
+    },
+    {
+      time: '20h30 – 20h45',
+      title: 'Apresentação das Empresas Patrocinadoras',
+      description: 'Momento dedicado às empresas no palco:',
       tags: [
-        { label: 'Master: 7 min', color: 'bg-yellow-900/30' },
+        { label: 'Master: 6 min', color: 'bg-yellow-900/30' },
         { label: 'Prata: 4 min', color: 'bg-gray-700/30' },
         { label: 'Bronze: Painel Relâmpago', color: 'bg-orange-900/30' },
       ],
     },
     {
       time: '19h45 – 20h35',
-      title: 'Talk Show exclusivo: "2027: O Ano da Inovação na Grande Florianópolis"',
-      description: `Uma conversa rara e sem filtros com:
-🎙️ Luan Tavares (Vice-Presidente AEMFLO)
-🎙️ Marcio Cavalcanti (Diretor de Inovação)
-🎙️ Macson Vieira (Coordenador do Núcleo de Inovação e Negócios)
-
-O que você vai descobrir:
-✅ As tendências de mercado que vão definir os próximos anos.
-✅ Como o associativismo está criando estratégias para aumentar sua produtividade e vendas.
-✅ Ações práticas para você conquistar mais resultados e, consequentemente, mais tempo de qualidade para sua família.`,
+      title: 'Palestra Principal',
+      description: 'Palestra de alto impacto com Fernando Atalaia — Estrategista de Ecossistema Empresarial, tema: Vendas, Ecossistema e Aumento de Faturamento.',
       tags: [],
     },
     {
       time: '20h45 – 22h30',
       title: '🥩 Churrasco Gourmet pelo Chef Rodrigo',
-      description: 'Jantar premium com cortes selecionados, estações de circulação e networking livre. Reabertura dos estandes dos patrocinadores.',
+      description: 'Jantar premium, networking livre e circulação pelos estandes.',
       tags: [],
     },
   ];

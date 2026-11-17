@@ -19,7 +19,7 @@ export default function SobreEventoSection() {
           <div className="stat-card rounded-2xl p-8 text-center">
             <div className="text-5xl font-black text-gold font-display mb-2">3h30</div>
             <div className="text-gray-400 text-sm uppercase tracking-wider">De Evento</div>
-            <div className="text-gray-500 text-xs mt-2">Palestra + Networking + Churrasco Gourmet</div>
+            <div className="text-gray-500 text-xs mt-2">Painel + Networking + Churrasco Gourmet</div>
           </div>
           <div className="stat-card rounded-2xl p-8 text-center">
             <div className="text-5xl font-black text-gold font-display mb-2">1</div>

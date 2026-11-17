@@ -21,8 +21,9 @@ export default function HeroSection() {
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               O evento de aniversário do{' '}
-              <strong className="text-gold">Núcleo de Inovação e Negócios da AEMFLO/CDL São José</strong>. Uma noite
-              exclusiva para conectar, inspirar e gerar negócios reais.
+              <strong className="text-gold">Núcleo de Inovação e Negócios da AEMFLO/CDL São José</strong>. Uma noite exclusiva com um{' '}
+              <strong className="text-gold">Painel de Alto Nível</strong>, networking qualificado e um churrasco gourmet assinado pelo{' '}
+              <strong className="text-gold">Chef Rodrigo</strong>.
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               <div className="flex items-center gap-3">
