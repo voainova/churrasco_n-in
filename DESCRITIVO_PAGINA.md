@@ -68,7 +68,7 @@ Página institucional/proposta de patrocínio para o evento "Churrasco da Inova�
   - Badge "Proposta Exclusiva de Patrocínio" (dourado)
   - Título: "Churrasco da Inovação & Negócios" (dourado + branco)
   - Descrição do evento
-  - 3 cards de info: Data (05/Nov/2026), Horário (19h00), Local (AEMFLO/CDL-SJ)
+  - 3 cards de info: Data (03/Dez/2026), Horário (19h00), Local (AEMFLO/CDL-SJ)
   - Imagem: `Arte_feed.jpeg` em container quadrado
   - Badge flutuante: "80 Empresários Qualificados"
 
@@ -90,6 +90,7 @@ Página institucional/proposta de patrocínio para o evento "Churrasco da Inova�
 ### 5. PROGRAMAÇÃO (Timeline)
 - **Fundo:** Gradiente escuro (`gradient-dark`)
 - **Layout:** Timeline vertical com dots dourados
+- **Após a timeline:** Arte dos palestrantes (`Arte_feed_palestrantes.jpeg`) e detalhes do Talk Show exclusivo "2027: O Ano da Inovação na Grande Florianópolis"
 - **Itens:**
   1. **19h00–19h15** — Recepção & Exposição dos Patrocinadores
   2. **19h15–19h25** — Abertura & Aniversário do Núcleo
@@ -188,6 +189,7 @@ projeto/
 | `Logo Núcleo Inovação 2025 melhorada.png` | Header + Footer |
 | `logo completa colorida Inovação e Negócios.jpeg` | Header + Footer |
 | `Arte_feed.jpeg` | Hero Section (imagem principal) |
+| `Arte_feed_palestrantes.jpeg` | Seção Programação (Talk Show exclusivo) |
 | `video_churras.MOV` | Seção Edição 2025 (vídeo) |
 | `foto1.jpg` | Seção Edição 2025 (galeria - palestra) |
 | `foto2.jpg` | Seção Edição 2025 (galeria - networking) |
@@ -199,7 +201,7 @@ projeto/
 
 ### Dados do Evento
 - **Nome:** Churrasco da Inovação & Negócios
-- **Data:** 05 de Novembro de 2026
+- **Data:** 03 de Dezembro de 2026
 - **Horário:** 19h00
 - **Local:** AEMFLO / CDL São José-SC
 - **Público esperado:** 80 empresários qualificados
