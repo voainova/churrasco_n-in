@@ -1,43 +1,33 @@
 export default function ProgramacaoSection() {
   const timelineItems = [
     {
-      time: '19h00 – 19h15',
-      title: 'Recepção & Exposição dos Patrocinadores',
-      description: 'Abertura dos portões, credenciamento e circulação livre pelos estandes dos patrocinadores com networking inicial.',
+      time: '19h00',
+      title: 'Recepção e Feira de Negócios',
+      description: 'Chegada, credenciamento e primeiro contato com os expositores e empresários.',
       tags: [],
     },
     {
-      time: '19h15 – 19h45',
-      title: 'Abertura & Aniversário do Núcleo',
-      description: 'Apresentação institucional "Núcleo em Números" com resultados, cases e visão de futuro.',
+      time: '19h15',
+      title: 'Abertura Oficial e Celebração de Aniversário do Núcleo',
+      description: 'Momento de celebração do aniversário do Núcleo de Inovação.',
       tags: [],
     },
     {
-      time: '19h45 – 20h30',
-      title: '🎤 Painel Dinâmico dos Patrocinadores',
-      description: 'Entrevistas conduzidas pelo MC no palco — formato dinâmico que valoriza sua marca com credibilidade e conteúdo.',
+      time: '19h45',
+      title: 'Painel: Empresas Inovadoras, Grandes Resultados Reais',
+      description: 'Cases reais de empresários de sucesso. Pergunte, interaja e se conecte.',
       tags: [],
     },
     {
-      time: '20h30 – 20h45',
-      title: 'Apresentação das Empresas Patrocinadoras',
-      description: 'Momento dedicado às empresas no palco:',
-      tags: [
-        { label: 'Master: 6 min', color: 'bg-yellow-900/30' },
-        { label: 'Prata: 4 min', color: 'bg-gray-700/30' },
-        { label: 'Bronze: Painel Relâmpago', color: 'bg-orange-900/30' },
-      ],
-    },
-    {
-      time: '19h45 – 20h35',
-      title: 'Palestra Principal',
-      description: 'Palestra de alto impacto com Fernando Atalaia — Estrategista de Ecossistema Empresarial, tema: Vendas, Ecossistema e Aumento de Faturamento.',
+      time: '20h30',
+      title: 'Apresentação de cases de Sucesso',
+      description: 'Momento exclusivo para conhecer histórias e resultados de empresas da região.',
       tags: [],
     },
     {
-      time: '20h45 – 22h30',
-      title: '🥩 Churrasco Gourmet pelo Chef Rodrigo',
-      description: 'Jantar premium, networking livre e circulação pelos estandes.',
+      time: '20h45',
+      title: '🥩 Churrasco Gourmet pelo Chef Rodrigo + Open Networking',
+      description: 'Experiência gastronômica premium com continuidade do networking.',
       tags: [],
     },
   ];
